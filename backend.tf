@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket         = "my-terraform-state"
-    region         = "ap-south-2"
+    region         = "us-east-1"
     key            = "s3-github-actions/terraform.tfstate"
     encrypt = true
   }
